@@ -9,12 +9,12 @@ function App() {
     <>
       <Header></Header>
 
-      <div className='md:flex'>
+      <main className='md:flex'>
 
       <Blogs></Blogs>
       <BookMarks></BookMarks>
 
-      </div>
+      </main>
     </>
   )
 }
